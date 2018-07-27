@@ -15,6 +15,7 @@ class Social_account(object):
                     for cha_id in channel_id_file.readlines():
                         data_list = []
                         channel_id = cha_id.strip()
+                        print(channel_id)
                         data_list.append(channel_id)
                         url = "https://www.youtube.com/channel/{}/about".format(channel_id)
                         inp = requests.get(url)
