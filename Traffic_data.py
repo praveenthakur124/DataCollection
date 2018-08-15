@@ -16,7 +16,5 @@ class Collectin_traffic_data(object):
                 print(i.strip())
 
 
-
-
 obj = Collectin_traffic_data('xecdecdedcd')
 obj.collect_video_traffic()
